@@ -21,28 +21,30 @@
 		<div class="row ">
 			<div class="col-md-6">
 
-				<p>The purpose of this application is to articulate some basic
-					concepts and capabilities of the Pivotal Cloud Foundry platform, specifically
-					the Elastic Runtime which is responsible for running application workloads.</p>
-				<h3>Application Architecture</h3>
-				<p><code>articulate</code> is a web application that exposes friendly, browsable user interface.  However, it does not work with data directly.  It depends on the <code>attendee-service</code> application to manage data.  The <code>attendee-service</code> persists data to a MySQL database.</p>
+				<p>이 애플리케이션의 목적은 Pivotal Cloud Foundry 플랫폼,
+					구체적으로 애플리케이션의 워크로드를 구동하는 Elastic Runtime의 개념과 기능을 분명히 하는데 있습니다.</p>
+				<h3>애플리케이션 구조</h3>
+
+				<p><code>articulate</code>는 친숙하고 탐색 가능한 사용자 인ㅌ페이스를 제공하는 웹 애플리케이션입니다.
+					그러나 데이터를 직접 다루지는 않습니다. 이것은 데이터를 관리하는 <code>attendee-service</code> 응용 프로그램에 따라 다릅니다.
+					<code>attendee-service</code>는 데이터를 MySQL 데이터베이스에 보관합니다.</p>
 				<img src="/images/index2.png"
 									class="img-rounded img-responsive center-block" alt="Cinque Terre"
 									width="600" height="200" />
-				<h3>How to use this Application</h3>
+				<h3>이 애플리케이션을 사용하는 방법</h3>
 				<p>
-					Each menu item above links to a page that helps demonstrate a set
-					of capabilities provided by the platform. The last item, Spring Boot, highlights capabilities that come with <a href="http://projects.spring.io/spring-boot/" target="_blank">Spring Boot</a> to help build production ready microservices in minutes.
+					위의 각 메뉴 항목은 플랫폼이 제공하는 일련의 기능을 보여주는데 도움이 되는 페이지로 연결됩니다.
+					마지막 항목인 Spring Boot는
+					<a href="http://projects.spring.io/spring-boot/" target="_blank">Spring Boot</a>와 함께 제공되는 기능을 강조 표시되며,
+					몇 분 안에 생산 준비가 완료된 마이크로 서비스를 구축하는 데 도움을 줍니다.
 				</p>
-				<p>Each page has the same layout with the Accordion control and up to 3 groups:</p>
+				<p>각 페이지는 각 페이지의 레이아웃은 Accordion 컨트롤과 최대 3 개의 그룹으로 구성되는 동일한 레이아웃을 가집니다:</p>
 				<ol>
-					<li><b>Application Environment Information</b> - This provides
-						information about the application environment when running inside
-						PCF. You can see the Application Name, Container and Services
-						information. This is useful to show things like load balancing,
-						self healing, service binding among other things.</li>
-					<li><b>Description</b> - additional context for the given page.</li>
-					<li><a  target="_blank" href="http://12factor.net/">The Twelve-Factor App</a> - a methodology for building modern, scalable applications. Links to applicable factors will be provided. </li>
+					<li><b>애플리케이션 환경 정보</b> - PCF에서 구동되는 애플리케이션의 환경에 대한 정보를 제공합니다.
+						애플리케이션명, 컨테이녀 및 서비스 정보를 볼 수 있습니다. 로드밸런싱, 자가 치유 서비스 바인딩 같은 것을 보여주는데 유용합니다.</li>
+					<li><b>설명</b> - 주어진 페이지에 대한 부가 정보</li>
+					<li><a  target="_blank" href="http://12factor.net/">The Twelve-Factor App</a> - 현대적이고
+						확장 가능한 애플리케이션을 구축하는 방법론입니다. 적용 가능한 factor에 대한 링크가 제공됩니다.</li>
 
 				</ol>
 			</div>
