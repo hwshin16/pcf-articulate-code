@@ -3,6 +3,7 @@
 .factorypath
 .classpath
 .settings
+.idea/**/**/
 build/
 .project
 .springBeans
