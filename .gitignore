@@ -8,3 +8,7 @@ build/
 .project
 .springBeans
 /.apt_generated/
+
+articulate.iml
+
+.idea/workspace.xml
